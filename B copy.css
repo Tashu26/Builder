@@ -1,0 +1,447 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        z-index: 20;
+    }
+    
+    #logo {
+        height: 70%;
+        width: 8%;
+        top: 25%;
+        position: relative;
+        left: 5%;
+        display: flex;
+    }
+    
+    #c1 {
+        height: 90%;
+        width: 40%;
+        background-color: #d4d6c8;
+        border: none;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    #c2 {
+        height: 90%;
+        width: 40%;
+        background-color: #e9e9e5;
+        border: none;
+        border-radius: 50%;
+        position: relative;
+        right: 18%;
+    }
+    
+    #B {
+        position: relative;
+        top: 9%;
+        left: 50%;
+        z-index: 2;
+        color: #52524e;
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    #link {
+        height: 100%;
+        width: 60%;
+        position: relative;
+        left: 23%;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    #link a {
+        text-decoration: none;
+        color: #9ea094;
+        font-size: 20px;
+        position: relative;
+        justify-content: space-around;
+        top: 49%;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 650;
+        letter-spacing: 1px;
+        transition: ease-in-out 1s;
+    }
+    
+    #link a:hover {
+        color: #52524e;
+        transform: scale(1.2);
+    }
+    
+    #txt {
+        height: 40%;
+        width: 25%;
+        position: absolute;
+        margin-top: 18%;
+        left: 9%;
+    }
+    
+    #home {
+        display: flex;
+    }
+    
+    #pic {
+        position: relative;
+        left: 40%;
+        height: 100%;
+        width: 60%;
+        margin-top: 5%;
+    }
+    
+    #txt1 {
+        position: relative;
+        color: #52524e;
+        font-size: 48px;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    #txt2 {
+        position: relative;
+        color: #52524e;
+        font-size: 45px;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    p {
+        font-size: 28px;
+        color: #52524e;
+        font-family: 'Itim', cursive;
+    }
+    
+    #about {
+        height: 100%;
+        width: 100%;
+        background-color: #e9e9e586;
+    }
+    
+    #out {
+        position: relative;
+        top: 14%;
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Dancing Script', cursive;
+        color: #9a9b94;
+    }
+    
+    #me {
+        height: 69%;
+        width: 40%;
+        margin-left: 54%;
+        margin-top: -34%;
+        position: relative;
+    }
+    
+    #pic1 {
+        position: relative;
+        margin-left: 2%;
+        margin-top: 13%;
+    }
+    
+    #text {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    #project {
+        height: 100%;
+        width: 100%;
+        background-color: #d4d6c89f;
+    }
+    
+    #done1 {
+        width: 80%;
+        height: 30%;
+        /* background-color: teal; */
+        position: relative;
+        top: 20%;
+        left: 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #done2 {
+        width: 80%;
+        height: 30%;
+        /* background-color: rgb(0, 128, 0); */
+        position: relative;
+        top: 28%;
+        left: 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #done11 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/11.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done12 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/12.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done13 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/13.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done14 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/14.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done21 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/21.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done22 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/22.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done23 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/23.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #done24 {
+        height: 100%;
+        width: 18%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(images/24.svg);
+        border: solid #52524e;
+        border-width: 3px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.356);
+        transition: ease-in-out 1s;
+    }
+    
+    #txt11 {
+        height: 25%;
+        width: 95%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+        left: 1.5%;
+        position: relative;
+        margin-top: 79%;
+    }
+    
+    #txt12 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #txt13 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #txt14 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #txt21 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #txt22 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #txt23 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #txt24 {
+        height: 25%;
+        width: 95%;
+        background-color: yellow;
+        position: relative;
+        margin-top: 79%;
+        left: 1.5%;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 5%;
+    }
+    
+    #T1 {
+        font-size: 18.4px;
+    }
+    
+    h3 {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 800;
+        color: rgb(34, 30, 30);
+    }
+    
+    #done11:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done12:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done13:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done14:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done21:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done22:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done23:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #done24:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #contact {
+        height: 100%;
+        width: 100%;
+        background-color: #363633;
+    }
+    
+    #sm {
+        position: relative;
+        margin-top: 8%;
+    }
+    
+    #text26 {
+        color: #d4d6c8;
+        /* background-color: teal; */
+        position: relative;
+        margin-top: -36%;
+        width: 70%;
+        left: 14%;
+        text-align: center;
+    }
+    
+    #self {
+        position: relative;
+        margin-left: 63%;
+        margin-top: 5%;
+    }
